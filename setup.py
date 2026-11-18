@@ -24,6 +24,12 @@ setup(
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
+            'actionBot = avlab7.actionBot:main',
+            'stateBot = avlab7.stateBot:main',
+            'resetWorld = avlab7.resetWorld:main',
+            'spawnBot = avlab7.spawnBot:main',
+            'state_action_table = avlab7.state_action_table:main',
+            'rl_agent = avlab7.rl_agent:main',
         ],
     },
 )
